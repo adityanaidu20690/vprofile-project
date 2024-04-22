@@ -4,7 +4,6 @@ pipeline {
 /*	
 	tools {
         maven "maven3"
-	
     }
 */	
     environment {
@@ -109,7 +108,7 @@ pipeline {
                         );
                     } 
 		    else {
-                        error "*** File: ${artifactPath}, could not be found";
+                        error "*** File: ${artifactPath}, not be found";
                     }
                 }
             }
